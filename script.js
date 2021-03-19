@@ -1,27 +1,27 @@
-const Button1 = document.getElementById("Snare")
-const Button2 = document.getElementById("Tink")
-const Button3 = document.getElementById("Tom")
+const snareButton = document.getElementById("snare-button")
+const tinkButton = document.getElementById("tink-button")
+const tomButton = document.getElementById("tom-button")
 
-Button1.addEventListener('click', function() {
-  document.getElementById("snare").play()
+snareButton.addEventListener('click', function() {
+  document.getElementById("snare-audio").play()
 })
 
-Button2.addEventListener('click', function() {
-  document.getElementById("tink").play()
+tinkButton.addEventListener('click', function() {
+  document.getElementById("tink-audio").play()
 })
 
-Button3.addEventListener('click', function() {
-  document.getElementById("tom").play()
+tomButton.addEventListener('click', function() {
+  document.getElementById("tom-audio").play()
 })
 
-Button1.addEventListener('mouseenter', function() {
-  document.getElementById("snare").play()
+snareButton.addEventListener('mouseenter', function() {
+  document.getElementById("snare-audio").play()
 })
 
-Button2.addEventListener('mouseenter', function() {
-  document.getElementById("tink").play()
+tinkButton.addEventListener('mouseenter', function() {
+  document.getElementById("tink-audio").play()
 })
 
-Button3.addEventListener('mouseenter', function() {
-  document.getElementById("tom").play()
+tomButton.addEventListener('mouseenter', function() {
+  document.getElementById("tom-audio").play()
 })
